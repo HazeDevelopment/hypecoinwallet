@@ -108,7 +108,7 @@ WalletApplication::WalletApplication(int& _argc, char** _argv) : QApplication(_a
   m_systemTrayIcon(new QSystemTrayIcon(this)), m_applicationEventHandler(new ApplicationEventHandler(this)),
   m_optimizationManager(nullptr), m_blogReader(new BlogReader(this)), m_mainWindow(nullptr), m_splash(nullptr),
   m_logWatcher(nullptr), m_isAboutToQuit(false) {
-  setApplicationName("bytecoinwallet");
+  setApplicationName("HypeCoinWallet");
   setApplicationVersion(Settings::instance().getVersion());
   setQuitOnLastWindowClosed(false);
   setStyle(QStyleFactory::create("fusion"));
