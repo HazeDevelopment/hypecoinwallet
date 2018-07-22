@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=HypeCoin Wallet
+Comment=HypeCoin wallet
+Exec=hypecoinwallet %U
+Terminal=false
+Type=Application
+Icon=hypecoin
+MimeType=x-scheme-handler/hypecoin;
+Categories=Office;Finance;
